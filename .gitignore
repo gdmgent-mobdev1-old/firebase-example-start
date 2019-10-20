@@ -7,3 +7,5 @@ Desktop.ini
 .Trashes
 ._*
 Thumbs.db
+firebase/*
+firestore-debug.log

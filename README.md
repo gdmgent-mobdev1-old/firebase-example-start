@@ -1,4 +1,4 @@
-# 1920-mobdev1-code-template
+# Firebase example (end)
 
 ## Included
 * SASS (and SCSS)

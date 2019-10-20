@@ -17,6 +17,48 @@
     </head>
     <body>
         <div id="app">
+            <div id="appWrapper">
+                <div id="mainTitle">
+                    <h1>Firebase</h1>
+                </div>
+                <div class="appContainer">
+                    <div class="appContainerTitle">
+                        <h2>Authentication</h2>
+                    </div>
+                    <div class="appContainerContent">
+                        <button id="btnLogin" value="Login via Google">Login via Google</button>
+                        <button id="btnLogout" value="Logout">Logout</button>
+                    </div>
+                </div>
+                <div id="authenticatedContent">
+                    <div class="appContainer">
+                        <div class="appContainerTitle">
+                            <h2>Firestore (Database)</h2>
+                        </div>
+                        <div class="appContainerContent">
+                            <div class="dataContainer">
+                                <h3>Posts</h3>
+                                <div id="posts"></div>
+                                <input type="text" id="txtContent">
+                            </div>
+                            <div class="dataContainer">
+                                <h3>Products</h3>
+                                <div id="products"></div>
+                                <button id="btnAddProduct" value="Add Product">Add Product</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="appContainer">
+                        <div class="appContainerTitle">
+                            <h2>Storage Files</h2>
+                        </div>
+                        <div class="appContainerContent">
+                            <input id="btnImgUpload" type="file">
+                            <img id="imgUpload" src="">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
