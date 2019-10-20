@@ -1,4 +1,4 @@
-# Firebase example (end)
+# Firebase example (start)
 
 ## Included
 * SASS (and SCSS)
